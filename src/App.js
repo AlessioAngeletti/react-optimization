@@ -9,6 +9,7 @@ function App() {
 
   console.log('APP RUNNING');
 
+  // For non-primitive values, the comparison between the previous and the new value returns false
   const toggleParagraphHandler = () => {
     setShowParagraph((prevState) => !prevState);
   };
